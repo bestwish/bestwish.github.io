@@ -1,0 +1,8 @@
+# for Mac
+.DS_Store
+
+# for node
+node_modules/
+
+# for Build
+src/
