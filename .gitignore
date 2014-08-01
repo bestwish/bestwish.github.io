@@ -3,6 +3,3 @@
 
 # for node
 node_modules/
-
-# for Build
-src/
