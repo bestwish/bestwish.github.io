@@ -15,7 +15,10 @@ module.exports = (grunt) ->
                 files: 'src/js/*.js'
                 tasks: 'jshint:all'
             html:
-                files: 'build/template/*.jade'
+                files: [
+                    'build/template/*.jade',
+                    'build/template/partial/*.jade'
+                ],
                 tasks: 'jade'
             img:
                 files: 'build/images/*.png'
